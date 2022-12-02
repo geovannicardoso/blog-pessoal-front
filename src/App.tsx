@@ -1,9 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Home from './paginas/home/Home';
 import './App.css';
-import { Title } from './components/Title/Title';
+
+
 
 function App() {
+    return(
+        <Home />
+        
+    )
   
 }
 
